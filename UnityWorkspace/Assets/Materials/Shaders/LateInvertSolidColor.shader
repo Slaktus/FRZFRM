@@ -1,4 +1,4 @@
-Shader "VOL/LateInvertColor" {
+Shader "FRZFRM/LateInvertColor" {
 Properties {
 _Color ("Main Color", Color) = (1,1,1,1)
   

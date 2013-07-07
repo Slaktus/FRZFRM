@@ -1,4 +1,4 @@
-Shader "VOL/Multiply by Solid Color" {
+Shader "FRZFRM/Multiply by Solid Color" {
 
  
 

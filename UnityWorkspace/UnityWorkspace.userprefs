@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AvatarMovementController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\AvatarMovementController.cs" Line="23" Column="104" />
+      <File FileName="Assets\Scripts\CursorController.cs" Line="27" Column="42" />
+      <File FileName="Assets\Scripts\EnemyMovementController.cs" Line="29" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

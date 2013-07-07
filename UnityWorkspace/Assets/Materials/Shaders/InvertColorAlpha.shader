@@ -1,4 +1,4 @@
-Shader "VOL/InvertColorTexture"
+Shader "FRZFRM/InvertColorTexture"
 {
 	Properties 
 	{

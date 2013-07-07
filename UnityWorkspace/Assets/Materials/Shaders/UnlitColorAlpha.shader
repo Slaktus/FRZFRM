@@ -1,4 +1,4 @@
-Shader "VOL/UnlitColorAlpha" {
+Shader "FRZFRM/UnlitColorAlpha" {
 
 Properties {
 
