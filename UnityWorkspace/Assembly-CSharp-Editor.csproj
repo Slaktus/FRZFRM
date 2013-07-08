@@ -51,11 +51,11 @@
      <None Include="Assets\Materials\Shaders\UnlitColorAlpha.shader" />
      <None Include="Assets\Materials\Shaders\InvertColorAlpha.shader" />
      <None Include="Assets\Materials\Shaders\MultiplySolidColor.shader" />
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="GoKit">
  <HintPath>Assets\Plugins\GoKit.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

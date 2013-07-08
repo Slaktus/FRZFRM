@@ -45,8 +45,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AvatarMovementController.cs" />
+     <Compile Include="Assets\Scripts\AvatarScaleController.cs" />
+     <Compile Include="Assets\Scripts\AvatarWeaponController.cs" />
+     <Compile Include="Assets\Scripts\CollectableController.cs" />
      <Compile Include="Assets\Scripts\CursorController.cs" />
+     <Compile Include="Assets\Scripts\EnemyCollectableController.cs" />
      <Compile Include="Assets\Scripts\EnemyMovementController.cs" />
+     <Compile Include="Assets\Scripts\InvertPlaneController.cs" />
+     <Compile Include="Assets\Scripts\ParticleController.cs" />
+     <Compile Include="Assets\Scripts\ProjectileController.cs" />
+     <Compile Include="Assets\Scripts\TrailController.cs" />
      <None Include="Assets\Materials\Shaders\EarlyInvertSolidColor.shader" />
      <None Include="Assets\Materials\Shaders\LateInvertSolidColor.shader" />
      <None Include="Assets\Materials\Shaders\UnlitSolidColor.shader" />

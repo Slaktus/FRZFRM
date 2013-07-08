@@ -33,6 +33,6 @@ public class AvatarMovementController : MonoBehaviour {
 			if ( thisRigidbody.drag > inputDrag ) thisRigidbody.drag = inputDrag;
 			if ( Vector3.Distance( thisTransform.position , cursorTransform.position ) > minDistanceToCursor )  MoveToPoint( cursorTransform.position );
 		} else if ( thisRigidbody.drag < noInputDrag ) thisRigidbody.drag = noInputDrag;
-		thisRigidbody.rotation = Quaternion.LookRotation( thisRigidbody.velocity.normalized );
+		if ( thisRigidbody.velocity.normalized.sqrMagnitude > Vector3.zero.sqrMagnitude ) thisRigidbody.rotation = Quaternion.LookRotation( thisRigidbody.velocity.normalized );
 	}
 }
