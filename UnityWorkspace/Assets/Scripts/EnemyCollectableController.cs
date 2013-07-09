@@ -2,6 +2,14 @@ using UnityEngine;
 using System.Collections;
 
 public class EnemyCollectableController : MonoBehaviour {
+
+	private float pushForce = 20;
+	
+	void OnTriggerStay ( Collider collider ) {
+		if ( collider.gameObject.tag == "Enemy" ) {
+			parentRigidbody.AddForce( -Vector3.Normalize( collider.transform.parent.transform.position - parentTransform.position ) * pushForce , ForceMode.Acceleration );
+		}
+	}
 	
 	public GameObject collectable;
 	public float collectableInterval;
@@ -30,17 +38,17 @@ public class EnemyCollectableController : MonoBehaviour {
 	
 	private Transform thisTransform;
 	private Transform parentTransform;
-	private Rigidbody thisRigidbody;
 	private Vector3 minScale;
 	private Vector3 maxScale;
+	private Rigidbody parentRigidbody;
 	
 	void Awake () {
 		thisTransform = transform;
 		parentTransform = thisTransform.parent;
-		thisRigidbody = rigidbody;
 		maxScale = thisTransform.localScale;
 		minScale = maxScale / 2;
 		thisTransform.localScale = minScale;
+		parentRigidbody = thisTransform.parent.gameObject.rigidbody;
 	}
 	
 	public void StopTime () {

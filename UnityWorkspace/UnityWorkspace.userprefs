@@ -1,21 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyMovementController.cs">
-    <Files>
-      <File FileName="..\..\VOL\UnityWorkspace Take 3\Assets\Scripts\WeaponMissileController.cs" Line="114" Column="3" />
-      <File FileName="..\..\VOL\UnityWorkspace Take 3\Assets\Scripts\CursorController.cs" Line="75" Column="110" />
-      <File FileName="..\..\VOL\UnityWorkspace Take 3\Assets\Scripts\TOOCOMPLEXGenerationCounterController.cs" Line="45" Column="5" />
-      <File FileName="Assets\Scripts\InvertPlaneController.cs" Line="20" Column="3" />
-      <File FileName="Assets\Scripts\CursorController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyMovementController.cs" Line="60" Column="2" />
-      <File FileName="Assets\Scripts\AvatarScaleController.cs" Line="11" Column="83" />
-      <File FileName="Assets\Scripts\AvatarWeaponController.cs" Line="60" Column="25" />
-      <File FileName="Assets\Scripts\ParticleController.cs" Line="13" Column="61" />
-      <File FileName="Assets\Scripts\CollectableController.cs" Line="13" Column="79" />
-      <File FileName="Assets\Scripts\EnemyCollectableController.cs" Line="57" Column="22" />
-      <File FileName="Assets\TrailController.cs" Line="13" Column="25" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

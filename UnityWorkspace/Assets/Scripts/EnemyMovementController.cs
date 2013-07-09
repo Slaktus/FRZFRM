@@ -70,6 +70,7 @@ public class EnemyMovementController : MonoBehaviour {
 		thisRigidbody.angularVelocity = bufferedAngularVelocity;
 		isTimeStopped = false;
 		if ( currentTag != null ) Go.to( currentTag.transform , cursorTagScaleDownDuration , new TweenConfig().scale( Vector3.zero , false ).setEaseType( EaseType.BackIn ) ).setOnCompleteHandler( destroy => CleanUpTag() );
+
 	}
 	
 	private void CleanUpTag () {
